@@ -26,6 +26,12 @@ h1 {
   margin: 50px 0px 0px 0px;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  header {
+    animation: move infinite 10s ease;
+  }
+}
+
 h2 {
   color: var(--blue);
   margin: 0px 0px 20px 0px;
@@ -64,4 +70,16 @@ h2 {
   font-size: 0.69em;
   border-radius: 15px;
   border: 1px solid var(--white);
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }

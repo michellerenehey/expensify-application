@@ -25,10 +25,12 @@ function App() {
   };
   return (
     <div className="App">
-      <h1>Expensify's Next</h1>
-      <h2>
-        <em>React Full Stack Engineer</em>
-      </h2>
+      <header>
+        <h1>Expensify's Next</h1>
+        <h2>
+          <em>React Full Stack Engineer</em>
+        </h2>
+      </header>
       <img src={me} className="photo" alt="me with dahlia" />
       <div className="questions">
         <section className="question" onClick={handleFirstExpand}>
