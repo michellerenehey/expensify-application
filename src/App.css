@@ -23,7 +23,7 @@
 
 h1 {
   color: var(--blue);
-  margin: 0px;
+  margin: 50px 0px 0px 0px;
 }
 
 h2 {
@@ -34,7 +34,7 @@ h2 {
 .photo {
   height: 40vmin;
   pointer-events: none;
-  border: var(--green) solid 2px;
+  border: var(--green) solid 10px;
   border-radius: 15px;
   margin: 20px;
 }
@@ -47,11 +47,19 @@ h2 {
 }
 
 .question:hover {
-  background-color: var(--green);
+  background-color: var(--yellow);
   cursor: pointer;
 }
 
 .link {
   color: var(--blue);
   margin: 10px;
+}
+
+.expanded {
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--green);
+  color: var(--grey);
+  font-size: 0.75em;
 }
