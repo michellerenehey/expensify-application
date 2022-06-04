@@ -154,14 +154,32 @@ function App() {
           )}
         </section>
       </div>
-      <a
-        className="link"
-        href="https://www.michellenygren.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        More About Me
-      </a>
+      <section className="sites">
+        <a
+          className="link"
+          href="https://www.linkedin.com/in/michellenygren/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          My LinkedIn
+        </a>
+        <a
+          className="link"
+          href="https://www.michellenygren.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          My Portfolio
+        </a>
+        <a
+          className="link"
+          href="https://github.com/michellerenehey"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          My Github
+        </a>
+      </section>
     </div>
   );
 }

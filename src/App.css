@@ -60,6 +60,9 @@ h2 {
 .link {
   color: var(--blue);
   margin: 10px;
+  background-color: var(--yellow);
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .expanded {
@@ -70,6 +73,14 @@ h2 {
   font-size: 0.69em;
   border-radius: 15px;
   border: 1px solid var(--white);
+}
+
+.sites {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 60vw;
 }
 
 @keyframes move {
