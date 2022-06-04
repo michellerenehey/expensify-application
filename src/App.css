@@ -73,6 +73,18 @@ h2 {
   font-size: 0.69em;
   border-radius: 15px;
   border: 1px solid var(--white);
+  text-align: left;
+}
+
+.portfolio {
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--green);
+  color: var(--grey);
+  font-size: 0.69em;
+  border-radius: 15px;
+  border: 1px solid var(--white);
+  text-align: center;
 }
 
 .sites {

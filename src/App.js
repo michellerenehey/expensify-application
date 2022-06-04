@@ -1,6 +1,6 @@
+import { useState } from "react";
 import me from "./assets/me.png";
 import "./App.css";
-import { useState } from "react";
 
 function App() {
   const [firstExpand, setFirstExpand] = useState(false);
@@ -32,13 +32,13 @@ function App() {
         </h2>
       </header>
       <img src={me} className="photo" alt="me with dahlia" />
-      <div className="questions">
+      <main className="questions">
         <section className="question" onClick={handleFirstExpand}>
           <h5>
             What's the URL of your website? If you don't have one, why not?
           </h5>
           {firstExpand && (
-            <div className="expanded">
+            <div className="portfolio">
               <a
                 href="https://www.michellenygren.dev/"
                 target="_blank"
@@ -62,27 +62,34 @@ function App() {
                 came across something novel called ‘SEO’, and learned to change
                 the title in our company’s website with hopes of improving our
                 Google result. I felt like an absolute wizard! A hacker! A
-                coding genius!{" "}
+                coding genius!
               </p>
               <p>
                 At this time of my life, I did not know that a job existed where
-                I could always feel like a wizard. I knew that I loved creating
-                beautiful things and using logical steps to problem-solve, I
-                loved being precise, organized, detail-driven; but I also knew
-                that I loved using the empathetic side of me to connect with
-                others. After a stint as a digital marketer and another as a
-                professional pastry chef, I was introduced to coding (real
-                coding! real wizardry!) by a friend who had studied computer
-                science. “I think you may actually love this,” he said over
-                coffee one day. And thus my coding journey began!{" "}
+                I could <em>always</em> feel like a wizard. I knew that I loved
+                creating beautiful things and using logical steps to
+                problem-solve, I loved being precise, organized, detail-driven;
+                but I also knew that I loved using the empathetic side of me to
+                connect with others. After a stint as a digital marketer and
+                another as a professional pastry chef, I was introduced to
+                coding (real coding! real wizardry!) by a friend who had studied
+                computer science. “I think you may actually <em>love</em> this,”
+                he said over coffee one day. And thus my coding journey began!
               </p>
               <p>
                 I started in 2020: podcasts about coding career changes, YouTube
                 tutorials, free online resources (GA workshops, FreeCodeCamp,
-                CodeAcademy), a subscription to TreeHouse, and eventually worked
+                CodeAcademy), a subscription to Treehouse, and eventually worked
                 through a few longer introductory programs. I was hooked! I
-                enrolled in a 6-month bootcamp, Alchemy Code Lab, and quit my
-                job.{" "}
+                enrolled in a 6-month bootcamp,
+                <a
+                  href="https://www.alchemycodelab.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Alchemy Code Lab
+                </a>
+                , and quit my job.
               </p>
               <p>
                 Fast-forward to now: I am proficient in JavaScript, absolutely
@@ -90,14 +97,14 @@ function App() {
                 back-end, and full-stack web applications. I’ve spent the last 8
                 months coding full-time, using tools like Github, Supabase,
                 Postman, VSCode, Heroku and Netlify to collaborate and develop
-                big and small projects.{" "}
+                big and small projects.
               </p>
               <p>
                 What started as a dive into wizardy has unfolded in a way I’ve
                 never imagined: creating beautiful, accessible, empathetic web
-                experiences that center on user experience. I am an intuitive
-                problem solver, an engaging collaborator, and a meticulous
-                developer.
+                experiences that center on user experience. After pivoting into
+                this career, I am proud to say that I am an intuitive problem
+                solver, an engaging collaborator, and a meticulous developer.
               </p>
             </div>
           )}
@@ -111,13 +118,12 @@ function App() {
             <div className="expanded">
               <p>
                 My forever goal in life is to continue learning, growing, and
-                expanding - both as an individual and a developer. While my
-                coding journey is in its early stages, I ultimately decided to
+                expanding - both as an individual and a developer. I decided to
                 learn software development because I believed I could use
                 technology to solve bigger, more human-centered problems. The
                 internet should be equitable, and it should support and connect
                 us as human beings. What do I want to do with the rest of my
-                life? Contribute to making sure that happens!{" "}
+                life? Contribute to making sure that happens!
               </p>
               <p>
                 As an avid budgeter, I also believe finances shouldn’t be
@@ -125,13 +131,17 @@ function App() {
                 solutions to help. Greater than that, though, I’m deeply
                 inspired by Expensify’s underlying mission of solving real,
                 substantial, human-centered problems, and am excited to learn
-                about the launch of Expensify.org in 2020. The more I have dug
-                into Expensify’s mission, the more transparency around the
-                meaning/purpose of the business, the more excited I have become.{" "}
+                about the launch of Expensify.org in 2020. I’m moved by the
+                transparency of Expensify’s manifesto (Life Goals: Live Rich,
+                Have Fun, and Save The World; Two Rules: Get Shit Done and Don’t
+                Ruin It For Everybody Else; Core Qualities: Talent, Ambition,
+                and Humility), and would be honored to join the team to uphold
+                these pillars.
               </p>
               <p>
                 Becoming an Expensify employee would directly lead to my
-                long-term goals of using technology for good.{" "}
+                long-term goals of continual growth and using technology for
+                good.
               </p>
             </div>
           )}
@@ -153,8 +163,8 @@ function App() {
             </div>
           )}
         </section>
-      </div>
-      <section className="sites">
+      </main>
+      <footer className="sites">
         <a
           className="link"
           href="https://www.linkedin.com/in/michellenygren/"
@@ -179,7 +189,7 @@ function App() {
         >
           My Github
         </a>
-      </section>
+      </footer>
     </div>
   );
 }
