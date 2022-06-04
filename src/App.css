@@ -1,6 +1,17 @@
+* {
+  --grey: #232f42;
+  --green: #67dda3;
+  --yellow: #fad50a;
+  --white: #fafaf9;
+  --blue: #3385fb;
+  box-sizing: border-box;
+}
+
 .App {
+  margin: 0px;
+  padding: 0px;
   text-align: center;
-  background-color: #282c34;
+  background-color: var(--grey);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,11 +21,35 @@
   color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: var(--blue);
+  margin: 0px;
 }
 
-.App-link {
-  color: pink;
+h2 {
+  color: var(--blue);
+  margin: 0px 0px 20px 0px;
+}
+
+.photo {
+  height: 40vmin;
+  pointer-events: none;
+  border: var(--green) solid 2px;
+  border-radius: 15px;
+}
+
+.question {
+  border: var(--yellow) solid 1px;
+  border-radius: 15px;
+  margin: 10px;
+  width: 40vw;
+}
+
+.question:hover {
+  background-color: var(--green);
+}
+
+.link {
+  color: var(--blue);
+  margin: 10px;
 }
