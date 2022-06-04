@@ -100,7 +100,7 @@ function App() {
                 Netlify to collaborate and develop big and small projects.
               </p>
               <p>
-                What started as a dive into wizardy has unfolded in a way I’ve
+                What started as a dive into wizardry has unfolded in a way I’ve
                 never imagined: creating beautiful, accessible, empathetic web
                 experiences that center on user experience. After pivoting into
                 this career, I am proud to say that I am an intuitive problem
