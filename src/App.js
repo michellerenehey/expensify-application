@@ -81,7 +81,7 @@ function App() {
                 tutorials, free online resources (GA workshops, FreeCodeCamp,
                 CodeAcademy), a subscription to Treehouse, and eventually worked
                 through a few longer introductory programs. I was hooked! I
-                enrolled in a 6-month bootcamp,
+                enrolled in a 6-month bootcamp,{" "}
                 <a
                   href="https://www.alchemycodelab.com/"
                   target="_blank"
@@ -92,12 +92,12 @@ function App() {
                 , and quit my job.
               </p>
               <p>
-                Fast-forward to now: I am proficient in JavaScript, absolutely
-                love React, have experience building and managing front-end,
-                back-end, and full-stack web applications. I’ve spent the last 8
-                months coding full-time, using tools like Github, Supabase,
-                Postman, VSCode, Heroku and Netlify to collaborate and develop
-                big and small projects.
+                Fast-forward to now: I am highly proficient in JavaScript and
+                React (which I absolutely love), and have experience building
+                and managing front-end, back-end, and full-stack web
+                applications. I’ve spent the last 8 months coding full-time,
+                using tools like Github, Supabase, Postman, VSCode, Heroku and
+                Netlify to collaborate and develop big and small projects.
               </p>
               <p>
                 What started as a dive into wizardy has unfolded in a way I’ve
