@@ -36,17 +36,19 @@ h2 {
   pointer-events: none;
   border: var(--green) solid 2px;
   border-radius: 15px;
+  margin: 20px;
 }
 
 .question {
   border: var(--yellow) solid 1px;
   border-radius: 15px;
   margin: 10px;
-  width: 40vw;
+  width: 60vw;
 }
 
 .question:hover {
   background-color: var(--green);
+  cursor: pointer;
 }
 
 .link {
